@@ -1,0 +1,139 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+botlog.log
+# Игнорируем исходные данные и временные файлы
+#data/
+#output/
+*.png
+*.pdf
+*.csv
+*.json
+.env
+__pycache__/
+
+
+# 🔹 Игнорируем виртуальное окружение Python
+venv/
+env/
+.venv/
+*.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# 🔹 Логи и временные файлы
+#logs/
+*.log
+*.out
+*.err
+*.pid
+debug.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# 🔹 Файлы конфигурации и секретные данные
+.env
+.envrc
+config.json
+settings.yaml
+secrets/
+cache/
+*.sqlite3
+*.db
+*.sqlite
+*.csv
+*.tsv
+*.json
+*.xml
+
+# 🔹 Игнорируем файлы зависимостей (если используешь Poetry или Pipenv)
+poetry.lock
+Pipfile.lock
+
+# 🔹 Игнорируем IDE файлы (PyCharm, VS Code и другие)
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# 🔹 Jupyter Notebook (если используешь)
+.ipynb_checkpoints/
+
+# 🔹 Docker и CI/CD (если есть)
+.dockerignore
+docker-compose.override.yml
+.github/
+.gitlab-ci.yml
+
+# 🔹 Игнорируем файлы кэширования и зависимости
+__pycache__/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.cache
+*.cabal
+
+# 🔹 Игнорируем файлы сессий и паролей
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p12
+
+# 🔹 Игнорируем файлы контейнеров и виртуальных машин
+.vagrant/
+*.vdi
+*.vmdk
+*.qcow2
+*.box
+
+# 🔹 PyInstaller
+*.manifest
+*.spec
+
+# 🔹 Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 🔹 Django, Flask, Scrapy stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+
+# 🔹 PyBuilder, mypy, pytype, Pyre
+.pybuilder/
+target/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# 🔹 Docker
+.docker/
+
