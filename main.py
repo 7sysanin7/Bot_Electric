@@ -1,4 +1,8 @@
 # main.py
+# ...
+# Авторское право (c) 2024 Кучеренко В.А. (AlterVall). Все права защищены.
+# Использование регулируется файлом LICENSE в корне проекта.
+
 import os
 from dotenv import load_dotenv
 from telegram import Update
