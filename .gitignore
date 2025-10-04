@@ -136,4 +136,4 @@ target/
 
 # 🔹 Docker
 .docker/
-
+.vs/
